@@ -22,7 +22,7 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(self.calc.divide(10, 2), 5)
         self.assertEqual(self.calc.divide(20, 10), 2)
 
-        self.assertEqual(self.calc.modulo(22, 7), 1)
+        self.assertEqual(self.calc.modulo(27, 7), 6)
         self.assertEqual(self.calc.modulo(12, 6), 0)
 
 if __name__ == '__main__':
